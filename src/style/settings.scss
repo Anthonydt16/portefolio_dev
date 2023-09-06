@@ -1,0 +1,59 @@
+$background_color : #ffffff;
+$solid_heading_color : #42446E;
+$dark_content_color : #666;
+$href_color : #000;
+$primary_color : #E70FAA;
+$secondary_color : #00C0FD;
+$Gradient-Heading : linear-gradient(90deg, $secondary_color -2.06%, $primary_color 100%);
+
+
+//on import les polices Poppins et DM Sans
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap');
+$font_menu : 'DM Sans', sans-serif;
+$font : 'Poppins', sans-serif;
+
+$border_radius : 20px;
+$border_radius_small : 10px;
+$border_radius_light : 5px;
+$padding-big : 40px;
+$padding : 20px;
+
+$margin : 20px;
+
+$shadow : 0px 0px 10px rgba(0,0,0,0.1);
+
+body{
+    background-color: $background_color;
+    font-family: $font;
+    color: $dark_content_color;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 0;
+    padding: $padding-big;
+    box-sizing: border-box;
+    .envaleur{
+        //faire un degrader de couleur pour le background
+        background: $Gradient-Heading;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Poppins;
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: -1px;
+    }
+    h1{
+        font-size: 3.5rem;
+        font-weight: 600;
+        color: $solid_heading_color;
+        margin: 0;
+        padding: 0;
+        line-height: 1.2;
+
+    }
+
+}
