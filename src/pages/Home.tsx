@@ -1,12 +1,15 @@
-import ppProfile from './../assets/pp.png'
+
+import Bandeau from "../components/bandeau.tsx";
+import Technologie from "../components/technologie.tsx";
+import Project from "../components/project.tsx";
+import Menu from "../components/menu.tsx";
 const Home = () => {
     return (
-        <div className={"bandeau"}>
-            <h1>
-                Hey 👋,{'\n'} Mon nom est {'\n'} <span className={'envaleur'}> Anthony Douat</span> {'\n'} Je suis développeur web
-            </h1>
-            <img src={ppProfile} className={'profile'} alt={'photo de moi bg XD'}/>
-
+        <div>
+            <Menu/>
+            <Bandeau/>
+            <Technologie/>
+            <Project/>
         </div>
     );
 };

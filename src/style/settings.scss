@@ -24,6 +24,7 @@ $margin : 20px;
 $shadow : 0px 0px 10px rgba(0,0,0,0.1);
 
 body{
+    scroll-behavior: smooth;
     background-color: $background_color;
     font-family: $font;
     color: $dark_content_color;
@@ -47,13 +48,21 @@ body{
         letter-spacing: -1px;
     }
     h1{
-        font-size: 3.5rem;
+        font-size: 3.3rem;
         font-weight: 600;
         color: $solid_heading_color;
         margin: 0;
         padding: 0;
         line-height: 1.2;
 
+    }
+    h2{
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: $solid_heading_color;
+        margin: 0;
+        padding: 0;
+        line-height: 1.2;
     }
 
 }

@@ -1,0 +1,56 @@
+.cardProjet{
+  width: 20em;
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
+
+  margin: $margin;
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  animation: 1s ease-in-out 0s 1 slideInFromLeft;
+
+  img{
+    //radius sur les 2 angle du haut
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 10em;
+  }
+  .content{
+    padding: $padding;
+    h3{
+      font-size: 1.5em;
+      margin: 0;
+      padding: 0;
+      color: $href_color;
+      font-weight: initial;
+    }
+    .lien{
+      font-size: 0.8em;
+      margin: 0;
+      padding: 0;
+      font-weight: initial;
+      display: flex;
+      justify-content: space-between;
+      a{
+        color: $href_color;
+        text-decoration: none;
+
+
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+    .techno{
+      span{
+        font-weight: bold;
+      }
+    }
+  }
+}
