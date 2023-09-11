@@ -1,0 +1,17 @@
+.contact{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .askMe{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        color: $color-heading;
+    }
+    .mail{
+        font-size: 2rem;
+    }
+}

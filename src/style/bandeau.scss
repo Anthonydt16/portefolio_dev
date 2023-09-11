@@ -1,10 +1,23 @@
 .bandeau {
-    height: calc(100vh - 89px);
+  height: calc(100vh - 89px);
   display: flex;
   align-items: center;
   justify-content: center;
   margin: $padding;
-
-  .profile {
-  }
+  //si la taille de l'écran est inférieur à 768px alors on affiche l'element de la classe profile en dessous
+    @media (max-width: 1000px) {
+      height: calc(100vh - 89px);
+        flex-direction: column-reverse;
+      h1{
+        margin-top: $margin_big;
+        font-size: 2rem;
+        .envaleur{
+          font-size: 2rem;
+        }
+      }
+      .profile{
+        margin-top: 20px;
+        width: 59%;
+      }
+    }
 }

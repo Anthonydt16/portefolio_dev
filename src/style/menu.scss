@@ -1,4 +1,9 @@
 .menu{
+
+    //si la taille de l'écran est inférieur à 768px alors on affiche l'element de la classe profile en dessous
+    @media (max-width: 1000px) {
+        display: none;
+    }
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,5 +35,4 @@
             color: $solid_heading_color;
         }
     }
-
 }

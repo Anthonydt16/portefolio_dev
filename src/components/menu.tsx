@@ -1,9 +1,11 @@
 import logo from '../assets/logo.jpg';
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
-import {FaTwitter } from 'react-icons/fa';
+import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
+import {FaTwitter} from 'react-icons/fa';
+
+
 const Menu = () => {
     return (
-        <div className="menu">
+        <div className="menu desktop">
             <img src={logo} alt="logo" className="logo" />
             <div className="menu-items">
                 <a href="#home">Accueil</a>
@@ -24,7 +26,7 @@ const Menu = () => {
                 </a>
             </div>
         </div>
-    );
+    )
 };
 
 export default Menu;

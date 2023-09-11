@@ -1,7 +1,14 @@
 .technologie{
-  img{
-    width: 6em;
-    height: 6em;
-    margin: 1em;
+  .logos{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    svg{
+      margin-left: $margin_light;
+      width: 4em;
+      height: 4em;
+      fill: #000000;
+    }
   }
+
 }

@@ -1,0 +1,32 @@
+.footer{
+    .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        //faire un border en bas
+        border-bottom: 2px solid #eaeaea;
+        .right{
+            display: flex;
+            align-items: center;
+            mail{
+                font-size: 1rem;
+            }
+            a{
+                margin-left: 20px;
+                color: #666;
+                font-size: 1.5rem;
+                font-weight: 400;
+                line-height: 1.5;
+                text-decoration: none;
+            }
+            .mail{
+                margin-right: 20px;
+            }
+        }
+    }
+    .bottom{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
