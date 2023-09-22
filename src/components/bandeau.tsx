@@ -1,7 +1,7 @@
 import ppProfile from "../assets/pp.png";
 const Bandeau = () => {
     return (
-        <div className={"bandeau"}>
+        <div className={"bandeau"} id={"home"}>
             <h1>
                 Hey 👋, Mon nom est  <span className={'envaleur'}> Anthony Douat</span> Je suis développeur web
             </h1>

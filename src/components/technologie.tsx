@@ -17,9 +17,8 @@ import {GrReactjs} from "react-icons/gr";
 const Technologie = () => {
 
     return (
-        <div className={"technologie"}>
+        <div className={"technologie"} id="technologies">
             <h2>Technologie</h2>
-            <p>Les technologies que j'ai utilisé dans différent projet</p>
             <div className="logos">
                 <AiFillHtml5 className={"icon-with-gradient"} />
                 <IoLogoCss3 className={"icon-with-gradient"}/>

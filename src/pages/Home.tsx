@@ -6,10 +6,15 @@ import Menu from "../components/menu.tsx";
 import Parcours from "../components/parcours.tsx";
 import Contact from "../components/contact.tsx";
 import Footer from "../components/footer.tsx";
+import ScrollLinked from "../components/scrollLinked.tsx";
 const Home = () => {
+    //liste des id des sections pour le scroll
+
     return (
-        <div>
-            <Menu/>
+        
+        <div className="contentPortefolio">
+            <ScrollLinked />
+            <Menu />
             <Bandeau/>
             <Technologie/>
             <Project/>

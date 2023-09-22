@@ -1,8 +1,14 @@
 .technologie{
   .logos{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    //grid 3 columns
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 29em;
+    padding: 0 1em;
     svg{
       margin-left: $margin_light;
       width: 4em;
