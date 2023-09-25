@@ -3,6 +3,7 @@
   border-radius: 20px;
   background: #FFF;
   box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
+  position: relative;
 
   margin: 20px 0px 20px 0px;
   @keyframes slideInFromLeft {
@@ -31,6 +32,9 @@
       font-weight: initial;
     }
     .lien{
+      position: absolute;
+      bottom: 9px;
+      width: 88%;
       font-size: 0.8em;
       margin: 0;
       padding: 0;

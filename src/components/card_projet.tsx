@@ -3,8 +3,7 @@ import { motion } from "framer-motion";
 // @ts-ignore
 const CardProjet = ({fond, titre, description, techno, lien}) => {
     return (
-        <motion.div className={"cardProjet"} whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }} >
+        <motion.div className={"cardProjet"} whileHover={{ scale: 1.1 }} >
             <img src={fond} alt="Illustration de l'application ou du projet"/>
             <div className="content">
                 <h3>{titre}</h3>
