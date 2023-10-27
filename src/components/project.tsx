@@ -15,16 +15,27 @@ const Project = () => {
         titre: "Hallowod",
         description: "Hallowod est une application web qui est dédier à ajouter ces séances de sport pour pouvoir les suivres plus facilement et avec la fonctionalité phare qui est de pouvoir ajouter un document word pour ajouter c'est séance plus facilement.",
         techno: "ReactJS, Sass, Leaflet, API, Github",
-        lien: ['https://anthonydt16.github.io/VelMap.github.io/',
+        lien: ['https://github.com/Anthonydt16/front_hallowod_vueJS',
             '']
     }
+
+    const portefolio = {
+        titre: "Portefolio",
+        description: "Ce projet est un portefolio qui me permet de montrer mes compétences et mes projets.",
+        techno: "ReactJS, Sass, Typescript",
+        lien: ['https://anthonydt16.github.io/VelMap.github.io/',
+            '/']
+    }
+
+
 
     return (
         <div className={"project"} id='projects'>
             <h2>Les projets</h2>
             <div className="project-list">
-                <Card_projet fond={fond_hacked} titre={project1.titre} description={project1.description} techno={project1.techno} lien={project1.lien}/>
-                <Card_projet fond={fond_Hallwod} titre={hallowod.titre} description={hallowod.description} techno={hallowod.techno} lien={hallowod.lien}/>
+                <Card_projet fond={fond_hacked} titre={project1.titre} description={project1.description} techno={project1.techno} lien={project1.lien} />
+                <Card_projet fond={fond_Hallwod} titre={hallowod.titre} description={hallowod.description} techno={hallowod.techno} lien={hallowod.lien} />
+                <Card_projet fond={"https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D"} titre={portefolio.titre} description={portefolio.description} techno={portefolio.techno} lien={portefolio.lien} />
             </div>
         </div>
     );
