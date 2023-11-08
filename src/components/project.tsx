@@ -5,7 +5,7 @@ const Project = () => {
   const project1 = {
     titre: "VelMap",
     description:
-      "Le principe est simple a nous fournies une API avec des données sur les vélos et les stations, avec les contrats des villes partenaires. On devait par la suite les afficher sur une carte.",
+      "Le principe est simple : nous avons reçu une API contenant des données sur les vélos et les stations, ainsi que les accords des villes partenaires. Notre mission consistait ensuite à les afficher sur une carte.",
     techno: "ReactJS, Sass, Leaflet, API, Github",
     lien: [
       "https://anthonydt16.github.io/VelMap.github.io/",
@@ -16,7 +16,7 @@ const Project = () => {
   const hallowod = {
     titre: "Hallowod",
     description:
-      "Hallowod est une application web qui est dédier à ajouter ces séances de sport pour pouvoir les suivres plus facilement et avec la fonctionalité phare qui est de pouvoir ajouter un document word pour ajouter c'est séance plus facilement.",
+      "Hallowod est une application web dédiée à la gestion simplifiée des séances de sport, offrant une fonctionnalité phare permettant d'ajouter des documents Word pour faciliter l'enregistrement de ces séances.",
     techno: "ReactJS, Sass, Leaflet, API, Github",
     lien: [
       "https://github.com/Anthonydt16/front_hallowod_vueJS",
@@ -27,7 +27,7 @@ const Project = () => {
   const portefolio = {
     titre: "Portefolio",
     description:
-      "Ce projet est un portefolio qui me permet de montrer mes compétences et mes projets.",
+      "Ce projet constitue mon portfolio, offrant une vitrine pour démontrer mes compétences et présenter mes réalisations.",
     techno: "ReactJS, Sass, Typescript",
     lien: [
       "https://anthonydt16.github.io/VelMap.github.io/",
@@ -38,7 +38,7 @@ const Project = () => {
   const reactMovie = {
     titre: "React-Movie",
     description:
-      "on nous à fournis une api sur des films et ensuite nous avons développer une application web avec ReactJS pour pouvoir les afficher, Pouvoir gérer les favoris et les recherches.",
+      "Nous avons reçu une API de films, que nous avons ensuite utilisée pour développer une application web avec ReactJS. Cette application nous permet d'afficher les films, de gérer les favoris et de faciliter les recherches.",
     techno: "ReactJS, Sass, Axios, API, Github",
     lien: [
       "https://github.com/Anthonydt16/react-movie",
